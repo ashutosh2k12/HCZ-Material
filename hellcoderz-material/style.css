@@ -1,0 +1,95 @@
+/*
+  Theme Name:       Hellcoderz Material
+  Theme URI:        https://github.com/ashutosh2k12/hczmaterial
+  Author:           Ashutosh Chaudhary  
+  Author URI:       http://aboutashu.com
+  Description:      A Material-like WordPress theme. Material (for WordPress) is a simple, minimalistic beautiful theme for Personal Profiles.Inspired by the Bootstrap Material design, Hellcoderz Material is a WordPress port of the default theme by the same name. 
+  Version:          1.0.0
+  License:          GNU General Public License v2.0
+  License URI:      http://www.gnu.org/licenses/gpl-2.0.html
+  Text Domain:      material
+  Domain Path:      /languages/
+  Tags:             portfolio
+  GitHub Theme URI: https://github.com/ashutosh2k12/hczmaterial
+  GitHub Branch:    master
+*/
+.wp-caption{
+  max-width: 100%;
+}
+.wp-caption-text{}
+.sticky{}
+.screen-reader-text{}
+.gallery-caption{}
+.bypostauthor{}
+
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+img{
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+hr.clear{clear: both;}
+.alignleft {
+  display: inline;
+  float: left;
+}
+
+.alignright {
+  display: inline;
+  float: right;
+}
+
+.aligncenter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+  margin: 0.4em 1.6em 1.6em 0;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+  margin: 0.4em 0 1.6em 1.6em;
+}
+
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+  clear: both;
+  margin-top: 0.4em;
+  margin-bottom: 1.6em;
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+  margin-bottom: 1.2em;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin: 0;
+}
+
+.label a {
+    color: #fff;
+}
+.post-thumbnail img {
+    display: block;
+    margin: 0 auto;
+}
